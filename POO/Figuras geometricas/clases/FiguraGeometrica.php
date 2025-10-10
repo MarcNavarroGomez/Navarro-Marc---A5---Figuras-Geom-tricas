@@ -27,5 +27,5 @@ class FiguraGeometrica {
         $this->lado1 = $lado; 
     }
     // La defino aqui vacia, para usarla con los hijos dependiendo de la figura hacer una u otra operacion
-    public function calcularArea();
+    // public function calcularArea();
 }

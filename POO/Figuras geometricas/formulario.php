@@ -19,10 +19,10 @@ switch ($figura) {
     case 'triangulo':
         $lado1 = $_SESSION['lado1'] ?? '';
         $lado2 = $_SESSION['lado2'] ?? '';
-        $lado3 = $_SESSION['lado3'] ?? '';
-        echo "Lado 1: <input type='number' step='0.01' name='lado1' value='$lado1' required><br>";
-        echo "Lado 2: <input type='number' step='0.01' name='lado2' value='$lado2' required><br>";
-        echo "Lado 3: <input type='number' step='0.01' name='lado3' value='$lado3' required><br>";
+        // $lado3 = $_SESSION['lado3'] ?? '';
+        echo "Base: <input type='number' step='0.01' name='lado1' value='$lado1' required><br>";
+        echo "Altura: <input type='number' step='0.01' name='lado2' value='$lado2' required><br>";
+        // echo "Lado 3: <input type='number' step='0.01' name='lado3' value='$lado3' required><br>";
         break;
     case 'rectangulo':
         $lado1 = $_SESSION['lado1'] ?? '';
